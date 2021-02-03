@@ -56,17 +56,3 @@ class Square:
             return 4 * self.lenght
         else:
             return 2*(self.lenght + self.width)
-
-circle = Circle(6)
-x = circle.area()
-y = circle.diameter()
-z = circle.circumference()
-tri = Triangle(7,4,9)
-a = tri.area()
-b = tri.perimeter()
-square = Square(7,7)
-p = square.area()
-q = square.perimeter()
-print(a, b)
-print(x, y, z)
-print(p,q)
